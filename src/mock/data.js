@@ -17,11 +17,11 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profilepic.png',
+  paragraphOne: 'Hi there! I am Pavan Khiani, and I am currently studying Business and Computer Science at the University of British Columbia!',
+  paragraphTwo: 'I am currently exploring new opportunities in Data Analytics, Technology Consulting, and Product Management',
+  paragraphThree: 'Outside of the classroom, you can catch me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC',
+  resume: 'https://drive.google.com/file/d/1hmHbasQ75zkUeZ3MlXcSQdsV58jHcDB0/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -58,8 +58,8 @@ export const projectsData = [
 // CONTACT DATA
 export const contactData = {
   cta: '',
-  btn: '',
-  email: '',
+  btn: 'Contact Me',
+  email: 'pavan.khiani@gmail.com',
 };
 
 // FOOTER DATA
@@ -67,28 +67,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/pavan-khiani/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/pkhiani',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
