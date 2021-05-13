@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'Hi there! I am Pavan Khiani, and I am currently studying Business and Computer Science at the University of British Columbia!',
   paragraphTwo: 'I am currently exploring new opportunities in Data Analytics, Technology Consulting, and Product Management',
   paragraphThree: 'Outside of the classroom, you can catch me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC',
-  resume: 'https://drive.google.com/file/d/19jN5OJEXvf5AcY-KYDpjr1kWsShSGukY/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1F9mOKZ4xSuthlgBusoBOy042n1BIoFUB/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA

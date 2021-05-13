@@ -14,7 +14,7 @@ export default () => {
         <meta charSet="utf-8" />
         <title>{title || 'Pavan Khiani'}</title>
         <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="description" content={description || 'Pavan Khiani'} />
       </Helmet>
       <App />
     </>
