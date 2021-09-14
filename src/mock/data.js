@@ -31,6 +31,16 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'scotia.png',
+    title: 'EasyScotia',
+    info:
+      'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal',
+    info2: 'Created using Chrome Developer Tools, Javascript, HTML/CSS, Python',
+    url: 'https://www.youtube.com/watch?v=jAxvRbdAp0o',
+    repo: 'https://github.com/pkhiani/easyscotia', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'clubfinder.png',
     title: 'ClubFinder',
     info:
