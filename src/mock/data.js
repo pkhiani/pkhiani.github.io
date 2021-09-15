@@ -24,14 +24,14 @@ export const aboutData = {
     'I am currently exploring new opportunities in Cloud Technologies, Data Analytics, and Product Management',
   paragraphThree:
     'Outside of the classroom, you can find me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC',
-  resume: 'https://drive.google.com/file/d/1nvqm6ZsIQxgR2dZucgBh40eyz5wbpWK6/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Uwk44qW4Pf2fedsnHYtP7SnRZ3g01zwi/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'scotia.png',
+    img: 'scotia.jpg',
     title: 'EasyScotia',
     info:
       'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal',
