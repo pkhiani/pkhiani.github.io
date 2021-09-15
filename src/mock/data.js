@@ -31,7 +31,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'scotia.jpg',
+    img: 'scotia.png',
     title: 'EasyScotia',
     info:
       'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal',
