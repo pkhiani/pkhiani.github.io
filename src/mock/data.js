@@ -31,6 +31,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'wallettracker.png',
+    title: 'WalletTracker',
+    info: 'Web application used to track recent activity of a celebrity’s ETH crypto wallet.',
+    info2: 'Created using React.js, Covalent API',
+    url: 'https://optimistic-hypatia-322579.netlify.app/',
+    repo: 'https://github.com/k-laz/WalletTracker', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'scotia.png',
     title: 'EasyScotia',
     info:
@@ -38,16 +47,6 @@ export const projectsData = [
     info2: 'Created using Chrome Developer Tools, Javascript, HTML/CSS, Python',
     url: 'https://www.youtube.com/watch?v=jAxvRbdAp0o',
     repo: 'https://github.com/pkhiani/easyscotia', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'clubfinder.png',
-    title: 'ClubFinder',
-    info:
-      'A web application that displays results of extra curriculars for parents and high school students in the area, based on one of the various categories selected',
-    info2: 'Created using Python, Django, HTML/CSS, Microsoft Azure',
-    url: 'https://clubfinder.azurewebsites.net',
-    repo: 'https://github.com/pkhiani/clubfinder', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
