@@ -33,9 +33,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'wallettracker.png',
     title: 'WalletTracker',
-    info: 'Web application used to track recent activity of a celebrity’s ETH crypto wallet.',
+    info: 'Web application used to track recent activity of ETH crypto wallets.',
     info2: 'Created using React.js, Covalent API',
-    url: 'https://optimistic-hypatia-322579.netlify.app/',
+    url: 'https://k-laz.github.io/WalletTracker/',
     repo: 'https://github.com/k-laz/WalletTracker', // if no repo, the button will not show up
   },
   {
