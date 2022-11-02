@@ -21,9 +21,9 @@ export const aboutData = {
   paragraphOne:
     'Hi there! I am Pavan Khiani, and I am currently studying Business and Computer Science at the University of British Columbia!',
   paragraphTwo:
-    'I am currently exploring new opportunities in Cloud Technologies, Data Analytics, and Product Management',
+    'I am currently exploring new opportunities in Cloud Technologies, Data Analytics, and Product Management.',
   paragraphThree:
-    'Outside of the classroom, you can find me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC',
+    'Outside of the classroom, you can find me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'scotia.png',
     title: 'EasyScotia',
     info:
-      'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal',
+      'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal.',
     info2: 'Created using Chrome Developer Tools, Javascript, HTML/CSS, Python',
     url: 'https://www.youtube.com/watch?v=jAxvRbdAp0o',
     repo: 'https://github.com/pkhiani/easyscotia', // if no repo, the button will not show up
@@ -63,7 +63,7 @@ export const projectsData = [
     img: 'borb.jpg',
     title: 'Bearish or Bullish',
     info:
-      'A web Application that performs a Sentiment Analysis of recent news of the past few days on any given company listed on the stock exchange that the user inputs',
+      'A web Application that performs a Sentiment Analysis of recent news of the past few days on any given company listed on the stock exchange that the user inputs.',
     info2: 'Created Using Python, Django',
     url: 'https://devpost.com/software/bearish-or-bullish',
     repo: 'https://github.com/pkhiani/bearish-or-bullish', // if no repo, the button will not show up
