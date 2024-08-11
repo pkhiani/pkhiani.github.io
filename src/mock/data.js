@@ -19,11 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.png',
   paragraphOne:
-    'Hi there! I am Pavan Khiani, and I am currently studying Business and Computer Science at the University of British Columbia!',
+    'Hi there! My name is Pavan Khiani, and I am a graduate from the Business and Computer Science program at the University of British Columbia!',
   paragraphTwo:
-    'I am currently exploring new opportunities in Cloud Technologies, Data Analytics, and Product Management.',
+    'I am currently pursuing Product Management.',
   paragraphThree:
-    'Outside of the classroom, you can find me hiking, skiing, or doing many outdoors sports. I am also involved in the community at UBC.',
+    'Outside of work, you can find me travelling to new countries, touching grass, and creating content.',
   resume: '', // if no resume, the button will not show up
 };
 
@@ -33,7 +33,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'wallettracker.png',
     title: 'WalletTracker',
-    info: 'Web application used to track recent activity of ETH crypto wallets.',
+    info: 'Web application used to track recent activity and analytics of ETH crypto wallets.',
     info2: 'Created using React.js, Covalent API',
     url: 'https://k-laz.github.io/WalletTracker/',
     repo: 'https://github.com/k-laz/WalletTracker', // if no repo, the button will not show up
@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'scotia.png',
     title: 'EasyScotia',
     info:
-      'Chrome extension to make online banking more accessible, provide interactive tutorials on how to access and use certain banking services, and help seniors navigate the web portal.',
+      'Making online banking more accessible by providing interactive tutorials on how to access and use certain banking services, and helping seniors navigate the web portal.',
     info2: 'Created using Chrome Developer Tools, Javascript, HTML/CSS, Python',
     url: 'https://www.youtube.com/watch?v=jAxvRbdAp0o',
     repo: 'https://github.com/pkhiani/easyscotia', // if no repo, the button will not show up
