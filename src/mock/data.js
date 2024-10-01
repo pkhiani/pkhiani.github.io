@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profilepic.png',
   paragraphOne:
-    'I am graduate from the Business and Computer Science program at the University of British Columbia!',
+    'I am a graduate from the Business and Computer Science program at the University of British Columbia!',
   paragraphTwo:
     'I have always been involved at the intersection of business and technology since I was a kid, which led me down the path of Product Management. Currently exploring how to leverage these skills to make an impact.',
   paragraphThree:
