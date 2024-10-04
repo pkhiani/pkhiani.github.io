@@ -16,7 +16,7 @@ const INFO = {
 	homepage: {
 		title: "Product Manager and Content Creator",
 		description:
-			"I am graduate from the Business and Computer Science program at the University of British Columbia. I have always been involved at the intersection of business and technology since I was a kid, which led me down the path of Product Management. Outside of work, you can find me travelling to new countries, touching grass, and creating content.",
+			"I am a graduate from the Business and Computer Science program at the University of British Columbia. I have always been involved at the intersection of business and technology since I was a kid, which led me down the path of Product Management. Outside of work, you can find me travelling to new countries, touching grass, and creating content.",
 	},
 
 	projects: [
