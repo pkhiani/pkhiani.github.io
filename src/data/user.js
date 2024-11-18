@@ -20,32 +20,30 @@ const INFO = {
 		},
 
 	projects: [
-		// {
-		// 	title: "WalletTracker",
-		// 	description:
-		// 		"Web application used to track recent activity and analytics of ETH crypto wallets.",
-		// 	logo: "https://user-images.githubusercontent.com/56948805/169973910-6c42b84b-22c1-493a-8c59-70ff83f8754e.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com/k-laz/WalletTracker",
-		// },
-
-		// {
-		// 	title: "EasyScotia",
-		// 	description:
-		// 		"Making online banking more accessible by providing interactive tutorials on how to access and use certain banking services, and helping seniors navigate the web portal.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com/pkhiani/easyscotia",
-		// },
-
-		// {
-		// 	title: "EyeSpy",
-		// 	description:
-		// 		"An application designed to reduce eye strain while looking at a computer screen. Uses computer vision to count the number of times the user blinks during their work session and determines whether they are blinking a healthy ammount, and queues eye exercises once a user is on their break to relieve eye strain.",
-		// 	logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-		// 	linkText: "View Project",
-		// 	link: "https://github.com",
-		// },
+		{
+			title: "Networker.ai",
+			description:
+				"Generate personalized LinkedIn messages using AI.",
+			logo: "https://raw.githubusercontent.com/pkhiani/networker-ai/refs/heads/main/icon.png",
+			linkText: "View Project",
+			link: "https://chromewebstore.google.com/detail/networkerai/innhhchcboconofndjjlonpckbkljjim",
+		},
+		{
+			title: "KYCrypto",
+			description:
+				"AI powered crypto portfolio allocation based on risk tolerance and market experience.",
+			logo: "https://raw.githubusercontent.com/pkhiani/kycrypto/refs/heads/main/icon.png",
+			linkText: "View Project",
+			link: "https://kycrypto.netlify.app/",
+		},
+		{
+			title: "WalletTracker",
+			description:
+				"Track recent activity and analytics of ETH crypto wallets.",
+			logo: "https://user-images.githubusercontent.com/56948805/169973910-6c42b84b-22c1-493a-8c59-70ff83f8754e.png",
+			linkText: "View Project",
+			link: "https://k-laz.github.io/WalletTracker/",
+		},
 	],
 };
 
