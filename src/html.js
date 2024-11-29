@@ -16,7 +16,6 @@ export default function HTML({
   return (
     <html {...htmlAttributes}>
       <head>
-      <script defer src="https://cloud.umami.is/script.js" data-website-id="4c3dd8fe-4f22-4218-92c4-23933449bb09"></script>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
