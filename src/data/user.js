@@ -34,7 +34,7 @@ const INFO = {
 				"AI powered crypto portfolio allocation based on risk tolerance and market experience.",
 			logo: "https://raw.githubusercontent.com/pkhiani/kycrypto/refs/heads/main/icon.png",
 			linkText: "View Project",
-			link: "https://kycrypto.netlify.app/",
+			link: "https://kycrypto.ca/",
 		},
 		{
 			title: "WalletTracker",
