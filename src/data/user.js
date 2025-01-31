@@ -37,12 +37,12 @@ const INFO = {
 			link: "https://kycrypto.ca/",
 		},
 		{
-			title: "WalletTracker",
+			title: "Write a Blog",
 			description:
-				"Track recent activity and analytics of ETH crypto wallets.",
-			logo: "https://user-images.githubusercontent.com/56948805/169973910-6c42b84b-22c1-493a-8c59-70ff83f8754e.png",
+				"Create SEO-optimized blog posts with the power of AI.",
+			logo: "https://raw.githubusercontent.com/pkhiani/blog-writer/refs/heads/main/public/icon.png",
 			linkText: "View Project",
-			link: "https://k-laz.github.io/WalletTracker/",
+			link: "https://writeablog.pavankhiani.xyz/",
 		},
 	],
 };
