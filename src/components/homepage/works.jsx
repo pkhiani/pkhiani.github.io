@@ -15,6 +15,19 @@ const Works = () => {
 					<div className="works-body">
 
 						<div className="work">
+						<img
+								src="./telus.svg"
+								alt="telus"
+								className="work-image"
+							/>
+							<div className="work-title">TELUS</div>
+							<div className="work-subtitle">
+								Product Analyst
+							</div>
+							<div className="work-duration">2024 - 2025</div>
+						</div>
+
+						<div className="work">
 							<img
 								src="./rbc.png"
 								alt="rbc"

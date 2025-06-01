@@ -10,7 +10,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2024 Pavan. All Rights Reserved.
+						© 2025 Pavan. All Rights Reserved.
 					</div>
 				</div>
 			</div>

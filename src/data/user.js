@@ -14,7 +14,7 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Product Manager & Content Creator",
+		title: "Product Manager & Vibe Coder",
 		description:
 			"I’ve been around the worlds of business and technology since I was a kid, which eventually landed me a Business and Computer Science degree from UBC. When I’m not working, you’ll probably find me travelling somewhere far from home, touching grass, and making content while pretending I know what I'm doing."	
 		},
@@ -37,12 +37,12 @@ const INFO = {
 			link: "https://kycrypto.ca/",
 		},
 		{
-			title: "Write a Blog",
+			title: "Travelmood",
 			description:
-				"Create SEO-optimized blog posts with the power of AI.",
+				"Create AI-generated itineraries based on your travel style and map it out using Google Maps.",
 			logo: "https://raw.githubusercontent.com/pkhiani/blog-writer/refs/heads/main/public/icon.png",
 			linkText: "View Project",
-			link: "https://writeablog.pavankhiani.xyz/",
+			link: "https://travelmoodai.netlify.app/",
 		},
 	],
 };
