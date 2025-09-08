@@ -23,7 +23,7 @@ const INFO = {
 		{
 			title: "Networker.ai",
 			description:
-				"Generate personalized LinkedIn messages using AI.",
+				"Making quality connections just got a whole lot easier",
 			logo: "https://raw.githubusercontent.com/pkhiani/networker-ai/refs/heads/main/icon.png",
 			linkText: "View Project",
 			link: "https://chromewebstore.google.com/detail/networkerai/innhhchcboconofndjjlonpckbkljjim",
@@ -31,7 +31,7 @@ const INFO = {
 		{
 			title: "KYCrypto",
 			description:
-				"AI powered crypto portfolio allocation based on risk tolerance and market experience.",
+				"Crypto portfolios powered by AI",
 			logo: "https://raw.githubusercontent.com/pkhiani/kycrypto/refs/heads/main/icon.png",
 			linkText: "View Project",
 			link: "https://kycrypto.ca/",
@@ -39,7 +39,7 @@ const INFO = {
 		{
 			title: "Travelmood",
 			description:
-				"Create AI-generated itineraries based on your travel style and map it out using Google Maps.",
+				"Travel Styles on Google Maps using AI",
 			logo: "https://raw.githubusercontent.com/pkhiani/blog-writer/refs/heads/main/public/icon.png",
 			linkText: "View Project",
 			link: "https://travelmoodai.netlify.app/",
