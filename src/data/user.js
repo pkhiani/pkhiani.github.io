@@ -21,6 +21,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "ZenRise",
+			description:
+				"Transform mornings naturally",
+			logo: "https://raw.githubusercontent.com/pkhiani/ZenRise/refs/heads/main/ZenRise/Assets.xcassets/AppIcon.appiconset/zenrise%20icon.png",
+			linkText: "View Project",
+			link: "https://apps.apple.com/us/app/zenrise/id6753613807",
+		},
+		{
 			title: "Networker.ai",
 			description:
 				"Making quality connections just got a whole lot easier",
@@ -29,20 +37,12 @@ const INFO = {
 			link: "https://chromewebstore.google.com/detail/networkerai/innhhchcboconofndjjlonpckbkljjim",
 		},
 		{
-			title: "KYCrypto",
+			title: "PM Prep",
 			description:
-				"Crypto portfolios powered by AI",
-			logo: "https://raw.githubusercontent.com/pkhiani/kycrypto/refs/heads/main/icon.png",
+				"Prepare for Excellence in Your Product Interview",
+			logo: "https://raw.githubusercontent.com/pkhiani/pm-prep/refs/heads/main/public/logo.png?token=GHSAT0AAAAAADLOS222EFLGJ6A5LICO422A2JMV6UQ",
 			linkText: "View Project",
-			link: "https://kycrypto.ca/",
-		},
-		{
-			title: "Travelmood",
-			description:
-				"Travel Styles on Google Maps using AI",
-			logo: "https://raw.githubusercontent.com/pkhiani/blog-writer/refs/heads/main/public/icon.png",
-			linkText: "View Project",
-			link: "https://travelmoodai.netlify.app/",
+			link: "https://pmprep.xyz/",
 		},
 	],
 };

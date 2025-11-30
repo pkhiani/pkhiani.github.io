@@ -14,6 +14,8 @@ const Works = () => {
 				body={
 					<div className="works-body">
 
+
+
 						<div className="work">
 						<img
 								src="./telus.svg"
@@ -22,9 +24,9 @@ const Works = () => {
 							/>
 							<div className="work-title">TELUS</div>
 							<div className="work-subtitle">
-								Product Analyst
+								Product Manager
 							</div>
-							<div className="work-duration">2024 - 2025</div>
+							<div className="work-duration">2024 - Present</div>
 						</div>
 
 						<div className="work">
@@ -37,7 +39,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Product Analyst
 							</div>
-							<div className="work-duration">2023 - 2023</div>
+							<div className="work-duration">2023</div>
 						</div>
 
 						<div className="work">
@@ -50,21 +52,10 @@ const Works = () => {
 							<div className="work-subtitle">
 								Product Owner
 							</div>
-							<div className="work-duration">2022 - 2022</div>
+							<div className="work-duration">2022</div>
 						</div>
 
-						<div className="work">
-							<img
-								src="./telus.svg"
-								alt="telus"
-								className="work-image"
-							/>
-							<div className="work-title">TELUS</div>
-							<div className="work-subtitle">
-								Software Developer / Project Manager
-							</div>
-							<div className="work-duration">2021 - 2021</div>
-						</div>
+
 
 						
 					</div>
