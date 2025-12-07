@@ -40,7 +40,7 @@ const INFO = {
 			title: "PM Prep",
 			description:
 				"Prepare for Excellence in Your Product Interview",
-			logo: "https://raw.githubusercontent.com/pkhiani/pm-prep/refs/heads/main/public/logo.png?token=GHSAT0AAAAAADLOS222EFLGJ6A5LICO422A2JMV6UQ",
+			logo: "/pmprep-logo.png",
 			linkText: "View Project",
 			link: "https://pmprep.xyz/",
 		},
