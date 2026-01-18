@@ -16,8 +16,8 @@ const INFO = {
 	homepage: {
 		title: "Product Manager & Vibe Coder",
 		description:
-			"I’ve been around the worlds of business and technology since I was a kid, which eventually landed me a Business and Computer Science degree from UBC. When I’m not working, you’ll probably find me travelling somewhere far from home, touching grass, and making content while pretending I know what I'm doing."	
-		},
+			"I’ve been around the worlds of business and technology since I was a kid, which eventually landed me a Business and Computer Science degree from UBC. When I’m not working, you’ll probably find me travelling somewhere far from home, touching grass, and building random stuff while pretending I know what I'm doing."
+	},
 
 	projects: [
 		{
@@ -39,7 +39,7 @@ const INFO = {
 		{
 			title: "PM Prep",
 			description:
-				"Prepare for Excellence in Your Product Interview",
+				"Master the Art of the Product Interview",
 			logo: "/pmprep-logo.png",
 			linkText: "View Project",
 			link: "https://pmprep.xyz/",
