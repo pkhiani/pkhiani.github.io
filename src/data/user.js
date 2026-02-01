@@ -33,6 +33,10 @@ const INFO = {
 			description:
 				"Turn market data into decisive trades",
 			logo: "/mm-logo.png",
+			logoStyle: {
+				width: "60px",
+				height: "60px",
+			},
 			linkText: "View Project",
 			link: "https://marketmind.trading",
 		},

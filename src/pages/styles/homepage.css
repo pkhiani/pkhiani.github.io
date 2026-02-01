@@ -89,8 +89,9 @@
 }
 
 .homepage-works {
-	flex-basis: 600px;
+	flex-basis: auto;
 	padding-top: 30px;
+	width: fit-content;
 }
 
 @media (max-width: 1024px) {
@@ -100,7 +101,8 @@
 
 	.homepage-first-area-left-side {
 		display: flex;
-		flex-direction: column; /* Changed: set direction to column */
+		flex-direction: column;
+		/* Changed: set direction to column */
 		align-items: flex-start;
 		width: 100%;
 		order: 2;
