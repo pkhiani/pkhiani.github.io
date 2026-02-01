@@ -21,20 +21,20 @@ const INFO = {
 
 	projects: [
 		{
-			title: "ZenRise",
+			title: "Well Earned: Work earn play",
 			description:
-				"Transform mornings naturally",
-			logo: "https://raw.githubusercontent.com/pkhiani/ZenRise/refs/heads/main/ZenRise/Assets.xcassets/AppIcon.appiconset/zenrise%20icon.png",
+				"Live more offline",
+			logo: "/well-earned-logo.png",
 			linkText: "View Project",
-			link: "https://apps.apple.com/us/app/zenrise/id6753613807",
+			link: "https://apps.apple.com/app/well-earned-work-earn-play/id6757367210",
 		},
 		{
-			title: "Networker.ai",
+			title: "MarketMind",
 			description:
-				"Making quality connections just got a whole lot easier",
-			logo: "https://raw.githubusercontent.com/pkhiani/networker-ai/refs/heads/main/icon.png",
+				"Turn market data into decisive trades",
+			logo: "/mm-logo.png",
 			linkText: "View Project",
-			link: "https://chromewebstore.google.com/detail/networkerai/innhhchcboconofndjjlonpckbkljjim",
+			link: "https://marketmind.trading",
 		},
 		{
 			title: "PM Prep",
