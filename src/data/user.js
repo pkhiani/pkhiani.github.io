@@ -29,7 +29,7 @@ const INFO = {
 			link: "https://apps.apple.com/app/well-earned-work-earn-play/id6757367210",
 		},
 		{
-			title: "MarketMind",
+			title: "Marketind.trading",
 			description:
 				"Turn market data into decisive trades",
 			logo: "/mm-logo.png",
