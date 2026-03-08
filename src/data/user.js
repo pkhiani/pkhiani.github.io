@@ -21,12 +21,12 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Well Earned: Live more offline",
+			title: "Well Earned: Earn Screen Time",
 			description:
-				"Earn screen time with habits",
+				"Live more offline",
 			logo: "/well-earned-logo.png",
 			linkText: "View Project",
-			link: "https://apps.apple.com/us/app/well-earned-live-more-offline/id6757367210",
+			link: "https://apps.apple.com/us/app/well-earned-earn-screen-time/id6757367210",
 		},
 		{
 			title: "Marketmind.trading",
