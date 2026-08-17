@@ -29,16 +29,16 @@ const INFO = {
 			link: "https://apps.apple.com/us/app/well-earned-earn-screen-time/id6757367210",
 		},
 		{
-			title: "Marketmind.trading",
+			title: "Asymmetrix",
 			description:
-				"Turn market data into decisive trades",
-			logo: "/mm-logo.png",
+				"Find 10x Stocks Early",
+			logo: "/asymmetrix-logo.png",
 			logoStyle: {
 				width: "60px",
 				height: "60px",
 			},
 			linkText: "View Project",
-			link: "https://marketmind.trading",
+			link: "https://asymmetrix.xyz",
 		},
 		{
 			title: "PM Prep",
