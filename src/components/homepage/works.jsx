@@ -5,12 +5,11 @@ import INFO from "../../data/user";
 import "./styles/works.css";
 
 const Works = () => {
-	const { title, description, roles } = INFO.work;
+	const { title, roles } = INFO.work;
 
 	return (
 		<div className="works">
 			<div className="works-title">{title}</div>
-			<div className="works-description">{description}</div>
 
 			<div className="works-roles">
 				{roles.map((work) => (

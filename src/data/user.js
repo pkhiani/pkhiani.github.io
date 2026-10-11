@@ -49,8 +49,6 @@ const INFO = {
 
 	work: {
 		title: "Experience",
-		description:
-			"Product roles across telecom, banking, and consulting. I bring that product discipline to fast, lean builds.",
 		roles: [
 			{
 				company: "TELUS",
@@ -87,10 +85,6 @@ const INFO = {
 			description:
 				"Find 10x Stocks Early",
 			logo: "/asymmetrix-logo.png",
-			logoStyle: {
-				width: "60px",
-				height: "60px",
-			},
 			linkText: "View Project",
 			link: "https://asymmetrix.xyz",
 		},
