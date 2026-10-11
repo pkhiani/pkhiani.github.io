@@ -12,6 +12,7 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import Works from "../components/homepage/works";
+import Services from "../components/homepage/services";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
@@ -151,7 +152,14 @@ const Homepage = () => {
 							</a>
 						</div>
 
+						<div className="homepage-services">
+							<Services />
+						</div>
+
 						<div className="homepage-projects">
+							<div className="homepage-section-title">
+								{INFO.projectsTitle}
+							</div>
 							<AllProjects />
 						</div>
 
