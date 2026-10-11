@@ -6,13 +6,26 @@ import Title from '../Title/Title';
 
 const Services = () => {
   const { services } = useContext(PortfolioContext);
+  const { intro = [], items = [] } = services;
 
   return (
     <section id="services">
       <Container>
         <Title title="How I Work With Experts & Creators" />
+        <Fade bottom duration={1000} delay={300} distance="30px">
+          <div className="services-intro">
+            {intro.map((text, index) => (
+              <p
+                key={text}
+                className={index === 0 ? 'services-intro__lead' : 'services-intro__text'}
+              >
+                {text}
+              </p>
+            ))}
+          </div>
+        </Fade>
         <Row className="services-wrapper">
-          {services.map((service, index) => {
+          {items.map((service, index) => {
             const { title, info, id } = service;
 
             return (

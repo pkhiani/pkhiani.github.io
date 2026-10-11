@@ -13,7 +13,7 @@ export const heroData = {
   title: "Hi, I'm",
   name: 'Pavan.',
   subtitle:
-    'I help industry experts and creators turn what they know into products people pay for.',
+    'Anyone can vibe code an app now. I help industry experts and creators build the right one, and make money from it.',
   cta: 'See how',
 };
 
@@ -30,6 +30,12 @@ export const aboutData = {
 };
 
 // SERVICES DATA
+export const servicesIntro = [
+  "AI made building easy. It didn't make it easy to know what to build, or how to make money from it.",
+  "AI coding tools will build whatever you ask for. But they don't know your audience, your market, or what people will actually pay for, and they rarely push back when the idea or the business model is wrong. Their direction is only as good as the context you give them.",
+  "That's the part I bring: the product judgment from launching my own products, plus the speed of building with AI. You bring the expertise and the audience.",
+];
+
 export const servicesData = [
   {
     id: nanoid(),

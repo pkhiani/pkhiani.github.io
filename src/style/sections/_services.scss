@@ -10,6 +10,33 @@
     padding-top: 5rem;
   }
 
+  .services-intro {
+    max-width: 80rem;
+    margin: 0 auto 4rem;
+    text-align: left;
+
+    &__lead {
+      font-size: 2.4rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: 2rem;
+
+      @include respond(phone) {
+        font-size: 2rem;
+      }
+    }
+
+    &__text {
+      font-size: 1.8rem;
+      line-height: 1.6;
+      margin-bottom: 1.6rem;
+
+      @include respond(phone) {
+        font-size: $default-font-size;
+      }
+    }
+  }
+
   .services-wrapper {
     margin-top: 2rem;
 
