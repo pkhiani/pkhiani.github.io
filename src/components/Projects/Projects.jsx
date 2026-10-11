@@ -26,9 +26,9 @@ const Projects = () => {
     <section id="projects">
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Products I've Shipped" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, url, cta, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -54,7 +54,7 @@ const Projects = () => {
                         className="cta-btn cta-btn--hero"
                         href={url || '#!'}
                       >
-                        See Live
+                        {cta || 'See Live'}
                       </a>
 
                       {repo && (

@@ -23,7 +23,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Pavan Khiani`,
-        short_name: `Simplefolio`,
+        short_name: `Pavan Khiani`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#02aab0`,
