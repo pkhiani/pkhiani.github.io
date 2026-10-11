@@ -1,10 +1,11 @@
 @import "../../../data/styles.css";
 
 .project {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	opacity: 0.8;
 	height: 100%;
+	box-sizing: border-box;
+	border: 1px solid var(--quaternary-color);
+	border-radius: 20px;
+	transition: background-color 0.3s ease-in-out;
 }
 
 .project a {
@@ -13,8 +14,6 @@
 
 .project:hover {
 	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
 }
 
 .project:hover .project-link {
@@ -23,12 +22,12 @@
 }
 
 .project-container {
-	padding: 30px;
+	padding: 25px;
 }
 
 .project-logo {
-	width: 40px;
-	height: 60px;
+	width: 44px;
+	height: 44px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -52,6 +51,8 @@
 
 .project-description {
 	color: var(--secondary-color);
+	font-size: 14px;
+	line-height: 22px;
 }
 
 .project-link {
@@ -70,10 +71,4 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
-}
-
-@media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
 }

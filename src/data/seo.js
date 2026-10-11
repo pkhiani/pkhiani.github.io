@@ -2,8 +2,16 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"Product Manager. When I’m not working, you’ll probably find me travelling somewhere far from home, touching grass, and building random stuff",
-		keywords: ["Pavan", "Pavan K", "Pavan Khiani"],
+			"Pavan Khiani helps industry experts and creators turn their knowledge and audience into products people pay for. Anyone can vibe code an app; knowing what to build and how to monetize it is the hard part.",
+		keywords: [
+			"Pavan",
+			"Pavan K",
+			"Pavan Khiani",
+			"product manager",
+			"products for creators",
+			"products for experts",
+			"monetization",
+		],
 	}
 ];
 
