@@ -8,6 +8,7 @@ const INFO = {
 	socials: {
 		github: "https://github.com/pkhiani",
 		linkedin: "https://linkedin.com/in/pavan-khiani",
+		twitter: "https://x.com/pavan_khi",
 		medium: "https://pkhiani.medium.com/",
 		spotify: "https://open.spotify.com/show/5dlhqXHwdjDkiuOOvhcRa5?si=3063c552d402433f"
 	},
