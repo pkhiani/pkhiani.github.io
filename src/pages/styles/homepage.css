@@ -103,7 +103,8 @@
 .homepage-works {
 	flex-basis: auto;
 	padding-top: 30px;
-	width: fit-content;
+	padding-bottom: 30px;
+	width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -158,7 +159,5 @@
 
 	.homepage-works {
 		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
 	}
 }

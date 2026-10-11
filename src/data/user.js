@@ -47,6 +47,32 @@ const INFO = {
 
 	projectsTitle: "Products I've shipped",
 
+	work: {
+		title: "Experience",
+		description:
+			"Product roles across telecom, banking, and consulting. I bring that product discipline to fast, lean builds.",
+		roles: [
+			{
+				company: "TELUS",
+				role: "Product Manager",
+				duration: "2024 - Present",
+				logo: "./telus.svg",
+			},
+			{
+				company: "RBC",
+				role: "Product Analyst",
+				duration: "2023",
+				logo: "./rbc.png",
+			},
+			{
+				company: "KPMG",
+				role: "Product Owner",
+				duration: "2022",
+				logo: "./kpmg.png",
+			},
+		],
+	},
+
 	projects: [
 		{
 			title: "Well Earned: Earn Screen Time",
