@@ -28,14 +28,13 @@ const Header = () => {
           <h1 className="hero-title">
             {title || 'Hi! My name is'}{' '}
             <span className="text-color-main">{name || 'Pavan.'}</span>
-            <br />
-            {/* {subtitle || "I'm a Product Manager and Business + Computer Science graduate."} */}
           </h1>
+          {subtitle && <p className="hero-subtitle">{subtitle}</p>}
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
-              <Link to="about" smooth duration={1000}>
+              <Link to="services" smooth duration={1000}>
                 {cta || 'Know more'}
               </Link>
             </span>

@@ -2,88 +2,101 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Pavan Khiani | Product Builder for Experts & Creators',
+  lang: 'en',
+  description:
+    'Pavan Khiani is a product expert who helps industry experts and creators turn their knowledge and audience into monetizable products.',
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: "Hi, I'm",
+  name: 'Pavan.',
+  subtitle:
+    'Anyone can vibe code an app now. I help industry experts and creators build the right one, and make money from it.',
+  cta: 'See how',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profilepic.png',
   paragraphOne:
-    'I am a graduate from the Business and Computer Science program at the University of British Columbia!',
+    "I'm a product expert who builds monetizable products for industry experts and creators: people who already have the knowledge and the audience, but not the product to package it.",
   paragraphTwo:
-    'I have always been involved at the intersection of business and technology since I was a kid, which led me down the path of Product Management. Currently exploring how to leverage these skills to make an impact.',
+    "I've taken my own products from idea to launch: an AI stock research tool, a product management interview prep platform, and an iOS app. I handle the whole thing end to end: strategy, design, build, launch, and pricing.",
   paragraphThree:
-    'Outside of work, you can find me travelling to new countries, touching grass, and creating content.',
+    "I studied Business and Computer Science at UBC and have worked in product management. Outside of work I've traveled to 35+ countries and I create content myself, so I know the creator side firsthand.",
   resume: '', // if no resume, the button will not show up
 };
+
+// SERVICES DATA
+export const servicesIntro = [
+  "AI made building easy. It didn't make it easy to know what to build, or how to make money from it.",
+  "AI coding tools will build whatever you ask for. But they don't know your audience, your market, or what people will actually pay for, and they rarely push back when the idea or the business model is wrong. Their direction is only as good as the context you give them.",
+  "That's the part I bring: the product judgment from launching my own products, plus the speed of building with AI. You bring the expertise and the audience.",
+];
+
+export const servicesData = [
+  {
+    id: nanoid(),
+    title: 'Find the product',
+    info:
+      'Turn your expertise into a product your audience will pay for. We validate demand, define the offer, and choose a pricing model before writing any code.',
+  },
+  {
+    id: nanoid(),
+    title: 'Build it fast',
+    info:
+      'Design and ship an MVP in weeks, not quarters. That could be an AI tool, web app, mobile app, or paid platform.',
+  },
+  {
+    id: nanoid(),
+    title: 'Launch & monetize',
+    info:
+      'Payments, subscriptions, onboarding, and analytics, plus the iteration loop that turns an audience into recurring revenue.',
+  },
+];
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'wallettracker.png',
-    title: 'WalletTracker',
-    info: 'Web application used to track recent activity and analytics of ETH crypto wallets.',
-    info2: 'Created using React.js, Covalent API',
-    url: 'https://k-laz.github.io/WalletTracker/',
-    repo: 'https://github.com/k-laz/WalletTracker', // if no repo, the button will not show up
+    img: 'asymmetrix.png',
+    title: 'Asymmetrix',
+    info:
+      'AI-powered stock research that surfaces social signals and trade analysis to help investors find 10x stocks early.',
+    info2: 'Expertise → product: investing research packaged as an AI tool',
+    url: 'https://asymmetrix.xyz',
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'scotia.png',
-    title: 'EasyScotia',
+    img: 'pmprep.png',
+    title: 'PM Prep',
     info:
-      'Making online banking more accessible by providing interactive tutorials on how to access and use certain banking services, and helping seniors navigate the web portal.',
-    info2: 'Created using Chrome Developer Tools, Javascript, HTML/CSS, Python',
-    url: 'https://www.youtube.com/watch?v=jAxvRbdAp0o',
-    repo: 'https://github.com/pkhiani/easyscotia', // if no repo, the button will not show up
+      'Interview prep platform where candidates practice real product management scenarios with guided reflection and personalized feedback.',
+    info2: 'Expertise → product: PM know-how turned into a self-serve platform',
+    url: 'https://pmprep.xyz',
+    repo: '',
   },
   {
     id: nanoid(),
-    img: 'eyespy.png',
-    title: 'EyeSpy',
+    img: 'wellearned.jpg',
+    title: 'Well Earned',
     info:
-      'An application designed to reduce eye strain while looking at a computer screen. It utilizes computer vision to count the number of times the user blinks during their work session and determines whether they are blinking a healthy ammount. In addition, the application queues eye exercises once a user is on their break to relieve eye strain.',
-    info2: 'Created using Python, Google Firebase, OpenCV',
-    url: 'https://devpost.com/software/eyespy-fowtyn',
-    repo: 'https://github.com/pkhiani/eyespy', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'borb.jpg',
-    title: 'Bearish or Bullish',
-    info:
-      'A web Application that performs a Sentiment Analysis of recent news of the past few days on any given company listed on the stock exchange that the user inputs.',
-    info2: 'Created Using Python, Django',
-    url: 'https://devpost.com/software/bearish-or-bullish',
-    repo: 'https://github.com/pkhiani/bearish-or-bullish', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'auction.png',
-    title: 'AuctionApp',
-    info:
-      'A GUI application that has different cars that are available for auction that the user can view, and can place a bid on if they choose to. Some features include a system to check if you won the bid, or if you want to put your own listing up for auction.',
-    info2: 'Created using Java',
-    url: '',
-    repo: 'https://github.com/pkhiani/AuctionApp', // if no repo, the button will not show up
+      'iOS habit tracker and screen time blocker: users earn their screen time by completing healthy habits.',
+    info2: 'Consumer mobile app, live on the App Store',
+    url: 'https://apps.apple.com/us/app/well-earned-earn-screen-time/id6757367210',
+    cta: 'View on App Store',
+    repo: '',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: 'Contact Me',
+  cta:
+    "Have expertise or an audience and an idea for a product? Let's turn it into something people pay for.",
+  btn: "Let's Build Together",
   email: 'pavan.khiani@gmail.com',
 };
 
