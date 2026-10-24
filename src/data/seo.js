@@ -1,8 +1,9 @@
 const SEO = [
 	{
 		page: "home",
+		title: "Pavan Khiani | Product Builder for Experts & Creators",
 		description:
-			"Pavan Khiani helps industry experts and creators turn their knowledge and audience into products people pay for. Anyone can vibe code an app; knowing what to build and how to monetize it is the hard part.",
+			"Pavan Khiani is a product manager who helps industry experts and creators turn their knowledge and audience into monetizable products. Anyone can vibe code an app; knowing what to build and how to make money from it is the hard part.",
 		keywords: [
 			"Pavan",
 			"Pavan K",

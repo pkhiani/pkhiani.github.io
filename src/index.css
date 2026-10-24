@@ -8,6 +8,12 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+/* Headings are used for document structure; keep the existing visual spacing.
+   :where() has zero specificity so any component rule still wins. */
+:where(h1, h2, h3) {
+	margin: 0;
+}
+
 code {
 	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
 		monospace;

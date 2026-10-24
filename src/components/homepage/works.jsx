@@ -9,7 +9,7 @@ const Works = () => {
 
 	return (
 		<div className="works">
-			<div className="works-title">{title}</div>
+			<h2 className="works-title">{title}</h2>
 
 			<div className="works-roles">
 				{roles.map((work) => (

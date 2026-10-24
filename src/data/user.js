@@ -2,7 +2,18 @@ const INFO = {
 	main: {
 		title: "Pavan",
 		name: "Pavan",
+		fullName: "Pavan Khiani",
+		url: "https://pavankhiani.xyz",
 		logo: "../Pavan Icon.png",
+		expertise: [
+			"Product management",
+			"Building monetizable products",
+			"Product strategy",
+			"Pricing and monetization",
+			"MVP development",
+			"AI-assisted development (vibe coding)",
+			"Creator economy",
+		],
 	},
 
 	socials: {
@@ -77,6 +88,8 @@ const INFO = {
 			title: "Well Earned: Earn Screen Time",
 			description:
 				"Live more offline",
+			about:
+				"iOS habit tracker and screen time blocker where users earn their screen time by completing healthy habits.",
 			logo: "/well-earned-logo.png",
 			linkText: "View Project",
 			link: "https://apps.apple.com/us/app/well-earned-earn-screen-time/id6757367210",
@@ -85,6 +98,8 @@ const INFO = {
 			title: "Asymmetrix",
 			description:
 				"Find 10x Stocks Early",
+			about:
+				"AI-powered stock research that surfaces social signals and trade analysis to help investors find 10x stocks early.",
 			logo: "/asymmetrix-logo.png",
 			linkText: "View Project",
 			link: "https://asymmetrix.xyz",
@@ -93,6 +108,8 @@ const INFO = {
 			title: "PM Prep",
 			description:
 				"Master the Art of the Product Interview",
+			about:
+				"Interview prep platform where candidates practice real product management scenarios with guided reflection and personalized feedback.",
 			logo: "/pmprep-logo.png",
 			linkText: "View Project",
 			link: "https://pmprep.xyz/",
