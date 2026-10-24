@@ -9,7 +9,7 @@ const Services = () => {
 
 	return (
 		<div className="services">
-			<div className="services-title">{title}</div>
+			<h2 className="services-title">{title}</h2>
 			<div className="services-description">{description}</div>
 
 			<div className="services-steps">
@@ -18,7 +18,7 @@ const Services = () => {
 						<div className="services-step-number">
 							{`0${index + 1}`}
 						</div>
-						<div className="services-step-title">{step.title}</div>
+						<h3 className="services-step-title">{step.title}</h3>
 						<div className="services-step-description">
 							{step.description}
 						</div>

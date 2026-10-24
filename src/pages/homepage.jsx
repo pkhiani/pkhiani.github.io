@@ -81,7 +81,7 @@ const Homepage = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{INFO.main.title}</title>
+				<title>{currentSEO.title}</title>
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -100,9 +100,9 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								<div className="title homepage-title">
+								<h1 className="title homepage-title">
 									{INFO.homepage.title}
-								</div>
+								</h1>
 
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
@@ -114,7 +114,7 @@ const Homepage = () => {
 									<div className="homepage-image-wrapper">
 										<img
 											src="laptop cat.png"
-											alt="about"
+											alt="Illustration of Pavan Khiani at a desk with a cat sleeping on his laptop"
 											className="homepage-image"
 										/>
 									</div>
@@ -127,6 +127,7 @@ const Homepage = () => {
 								href={INFO.socials.medium}
 								target="_blank"
 								rel="noreferrer"
+								aria-label="Medium"
 							>
 								<FontAwesomeIcon
 									icon={faMedium}
@@ -137,6 +138,7 @@ const Homepage = () => {
 								href={INFO.socials.spotify}
 								target="_blank"
 								rel="noreferrer"
+								aria-label="Spotify"
 							>
 								<FontAwesomeIcon
 									icon={faSpotify}
@@ -158,6 +160,7 @@ const Homepage = () => {
 								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
+								aria-label="LinkedIn"
 							>
 								<FontAwesomeIcon
 									icon={faLinkedin}
@@ -168,6 +171,7 @@ const Homepage = () => {
 								href={INFO.socials.github}
 								target="_blank"
 								rel="noreferrer"
+								aria-label="GitHub"
 							>
 								<FontAwesomeIcon
 									icon={faGithub}
@@ -181,9 +185,9 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-projects">
-							<div className="homepage-section-title">
+							<h2 className="homepage-section-title">
 								{INFO.projectsTitle}
-							</div>
+							</h2>
 							<AllProjects />
 						</div>
 
