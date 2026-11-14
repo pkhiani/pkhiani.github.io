@@ -14,6 +14,8 @@ import Footer from "../components/common/footer";
 import Works from "../components/homepage/works";
 import Services from "../components/homepage/services";
 import AllProjects from "../components/projects/allProjects";
+import SleepyCat from "../components/homepage/sleepyCat";
+import Reveal from "../components/common/reveal";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -100,29 +102,23 @@ const Homepage = () => {
 					<div className="homepage-container">
 						<div className="homepage-first-area">
 							<div className="homepage-first-area-left-side">
-								<h1 className="title homepage-title">
+								<h1 className="title homepage-title hero-enter">
 									{INFO.homepage.title}
 								</h1>
 
-								<div className="subtitle homepage-subtitle">
+								<div className="subtitle homepage-subtitle hero-enter hero-enter--2">
 									{INFO.homepage.description}
 								</div>
 							</div>
 
 							<div className="homepage-first-area-right-side">
-								<div className="homepage-image-container">
-									<div className="homepage-image-wrapper">
-										<img
-											src="laptop cat.png"
-											alt="Illustration of Pavan Khiani at a desk with a cat sleeping on his laptop"
-											className="homepage-image"
-										/>
-									</div>
+								<div className="homepage-image-container hero-enter hero-enter--image">
+									<SleepyCat />
 								</div>
 							</div>
 						</div>
 
-						<div className="homepage-socials">
+						<div className="homepage-socials hero-enter hero-enter--3">
 							<a
 								href={INFO.socials.medium}
 								target="_blank"
@@ -181,13 +177,17 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-services">
-							<Services />
+							<Reveal>
+								<Services />
+							</Reveal>
 						</div>
 
 						<div className="homepage-projects">
-							<h2 className="homepage-section-title">
-								{INFO.projectsTitle}
-							</h2>
+							<Reveal>
+								<h2 className="homepage-section-title section-title-line">
+									{INFO.projectsTitle}
+								</h2>
+							</Reveal>
 							<AllProjects />
 						</div>
 
@@ -210,7 +210,9 @@ const Homepage = () => {
 							</div> */}
 
 							<div className="homepage-works">
-								<Works />
+								<Reveal>
+									<Works />
+								</Reveal>
 							</div>
 						</div>
 

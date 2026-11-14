@@ -9,11 +9,15 @@ const Works = () => {
 
 	return (
 		<div className="works">
-			<h2 className="works-title">{title}</h2>
+			<h2 className="works-title section-title-line">{title}</h2>
 
 			<div className="works-roles">
-				{roles.map((work) => (
-					<div className="work" key={work.company}>
+				{roles.map((work, index) => (
+					<div
+						className="work reveal-child"
+						key={work.company}
+						style={{ "--reveal-delay": `${150 + index * 60}ms` }}
+					>
 						<div className="work-logo">
 							<img src={work.logo} alt={work.company} />
 						</div>
