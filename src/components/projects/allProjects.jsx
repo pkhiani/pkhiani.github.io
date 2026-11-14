@@ -1,6 +1,7 @@
 import React from "react";
 
 import Project from "./project";
+import Reveal from "../common/reveal";
 
 import INFO from "../../data/user";
 
@@ -10,7 +11,11 @@ const AllProjects = () => {
 	return (
 		<div className="all-projects-container">
 			{INFO.projects.map((project, index) => (
-				<div className="all-projects-project" key={index}>
+				<Reveal
+					className="all-projects-project"
+					key={index}
+					delay={index * 80}
+				>
 					<Project
 						logo={project.logo}
 						title={project.title}
@@ -19,7 +24,7 @@ const AllProjects = () => {
 						link={project.link}
 						logoStyle={project.logoStyle}
 					/>
-				</div>
+				</Reveal>
 			))}
 		</div>
 	);

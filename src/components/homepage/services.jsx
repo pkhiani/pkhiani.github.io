@@ -9,12 +9,16 @@ const Services = () => {
 
 	return (
 		<div className="services">
-			<h2 className="services-title">{title}</h2>
+			<h2 className="services-title section-title-line">{title}</h2>
 			<div className="services-description">{description}</div>
 
 			<div className="services-steps">
 				{steps.map((step, index) => (
-					<div className="services-step" key={step.title}>
+					<div
+						className="services-step reveal-child"
+						key={step.title}
+						style={{ "--reveal-delay": `${150 + index * 80}ms` }}
+					>
 						<div className="services-step-number">
 							{`0${index + 1}`}
 						</div>

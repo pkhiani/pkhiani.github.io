@@ -51,6 +51,49 @@
 	width: 100%;
 }
 
+/* ------- sleeping cat Easter egg ------- */
+.sleepy-cat {
+	position: relative;
+}
+
+.sleepy-cat img {
+	display: block;
+}
+
+.sleepy-cat-canvas {
+	position: absolute;
+	inset: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.8s ease;
+}
+
+.sleepy-cat-canvas.is-live {
+	opacity: 1;
+}
+
+/* Invisible hit area over the cat */
+.sleepy-cat-poke {
+	position: absolute;
+	left: 45%;
+	top: 44%;
+	width: 31%;
+	height: 20%;
+	padding: 0;
+	border: 0;
+	border-radius: 40%;
+	background: transparent;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+}
+
+.sleepy-cat-poke:focus-visible {
+	outline: 2px solid var(--link-color);
+	outline-offset: 2px;
+}
+
 .homepage-socials {
 	display: flex;
 	justify-content: left;
